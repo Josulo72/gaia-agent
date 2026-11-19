@@ -46,9 +46,16 @@ Coste: depende de cuántos pasos necesite cada pregunta. Con Claude Sonnet puede
 
 ## Resultados
 
-| Modelo | Aciertos | Puntuación |
-|---|---|---|
-| Claude Sonnet | _pendiente_ | _pendiente_ |
+| Modelo | Preguntas intentadas | Aciertos | Puntuación |
+|---|---|---|---|
+| Claude Sonnet | 11 de 20 | 10 | **50%** |
+
+Resultado enviado a la API de puntuación del curso el 19/11/2026 (mínimo para el certificado: 30%).
+
+Notas sobre el resultado:
+- Se ejecutaron 11 de las 20 preguntas en dos tandas, para controlar el gasto; 10 de 11 fueron correctas.
+- El fallo fue, muy probablemente, de formato: el agente respondió "basil" donde se esperaba "fresh basil" (la corrección es por coincidencia exacta).
+- En 2 preguntas con archivo adjunto no disponible (una imagen de ajedrez y un audio), el agente encontró la respuesta buscando en internet, no analizando el archivo.
 
 ## Limitaciones y mejoras posibles
 
